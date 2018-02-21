@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 600px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5%;
+  background: url('https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-0.3.5&s=c414ab134d883091cf40ac3f60bc2b0b&auto=format&fit=crop&w=1050&q=80')
+}
+
+.gigMenu {
+  margin-bottom: 5em;
+  padding: 0 10%;
+}
+
+.crew {
+  padding-top: 1em;
+}
+
+.gig2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 250px;
+  margin-left: 700px;
+  position: relative;
+  animation-name: move2;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move2 {
+    from  {top: 0px; left: 0px;}
+    to    {top: 100px; left: -600px;}
+}
